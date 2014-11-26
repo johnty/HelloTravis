@@ -1,5 +1,4 @@
 language: c
-before_script:
-   aclocal
-   automake --add-missing
-   autoconf
+before_script: aclocal
+before_script: automake --add-missing
+before_script: autoconf
