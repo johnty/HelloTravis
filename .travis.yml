@@ -1,1 +1,5 @@
 language: c
+before_script:
+	aclocal
+	automake --add-missing
+	autoconf
